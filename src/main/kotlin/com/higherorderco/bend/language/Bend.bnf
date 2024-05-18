@@ -17,6 +17,9 @@
     CRLF="regexp:\R"
     WHITE_SPACE="regexp:[ \n\t\f]"
 
+    /* Comments */
+    COMMENT="regexp:(#.*\n*)"
+
     /* Literals */
     CHAR="regexp:'(\\.|[^'])'"
     STRING="regexp:\"(\\.|[^\"])*\""
