@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.lukeribchester.bendintellij</id>
-    <name>bend-intellij</name>
-    <vendor>lukeribchester</vendor>
+    <id>com.higherorderco.bend</id>
+    <name>Bend</name>
+    <vendor>HigherOrderCO</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
