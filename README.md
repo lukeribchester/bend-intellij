@@ -8,11 +8,11 @@
 </p>
 
 ![Build](https://github.com/lukeribchester/bend-intellij/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/.svg)](https://plugins.jetbrains.com/plugin/)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/.svg)](https://plugins.jetbrains.com/plugin/)
+[![Version](https://img.shields.io/jetbrains/plugin/v/24451.svg)](https://plugins.jetbrains.com/plugin/24451)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/24451.svg)](https://plugins.jetbrains.com/plugin/24451)
 
 <!-- Plugin description -->
-This plugin provides support for [HigherOrderCO's](https://higherorderco.com/) Bend parallel programming language to 
+This plugin provides support for [Higher Order Company's](https://higherorderco.com/) Bend parallel programming language to 
 the IntelliJ Platform.
 
 _**Warning:** While effort is made to ensure a stable and reliable user experience, this plugin is under heavy
@@ -45,7 +45,7 @@ Install using your IDE's built-in plugin marketplace:
 3. Search for <kbd>'Bend'</kbd>
 4. Select <kbd>Install Plugin</kbd>
 
-View on the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/).
+View on the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/24451-bend).
 
 ### Manual
 
