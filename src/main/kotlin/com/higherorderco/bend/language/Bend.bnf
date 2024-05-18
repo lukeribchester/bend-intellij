@@ -1,0 +1,22 @@
+{
+  parserClass="com.higherorderco.bend.language.parser.BendParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Bend"
+  psiImplClassSuffix="Impl"
+  psiPackage="com.higherorderco.bend.language.psi"
+  psiImplPackage="com.higherorderco.bend.language.psi.impl"
+
+  elementTypeHolderClass="com.higherorderco.bend.language.psi.BendTypes"
+  elementTypeClass="com.higherorderco.bend.language.psi.BendElementType"
+  tokenTypeClass="com.higherorderco.bend.language.psi.BendTokenType"
+
+  tokens = [
+    /* Whitespace */
+    CRLF="regexp:\R"
+    WHITE_SPACE="regexp:[ \n\t\f]"
+  ]
+}
+
+Program ::= !<<eof>>
